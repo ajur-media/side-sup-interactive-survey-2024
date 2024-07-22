@@ -19,6 +19,7 @@ jobs:
           node-version: 22.5.1
 
       - run: npm ci
+      - run: npm run build
 
       - run: ./deploy.sh
         env:
