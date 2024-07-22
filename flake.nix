@@ -12,8 +12,8 @@
         pkgs = nixpkgs.legacyPackages.${system};
         devTools = with pkgs; [
           bashInteractive
-          
-          pkgs.nodejs_22
+
+          nodejs_22
         ];
       in {
         devShell = pkgs.mkShell ({
