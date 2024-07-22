@@ -10,6 +10,7 @@ for i in build/**/*; do
     fi
 
     file=${i#"build/"}
+    echo "$file"
     curl \
         --request PUT \
         --user "${AWS_KEY_ID}:${AWS_SECRET_KEY}" \
