@@ -1,7 +1,7 @@
 {
   "name": "sup-interactive",
   "version": "0.1.0",
-  "homepage": "./",
+  "homepage": ".",
   "private": true,
   "dependencies": {
     "leaflet": "^1.9.4",
