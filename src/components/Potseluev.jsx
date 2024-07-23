@@ -66,7 +66,7 @@ function Potseluev({ id, title }) {
           </p>
           <p>
             Ограды не ремонтировались с XVIII века, поэтому к ним не стоит
-            прислоняться
+            прислоняться!
           </p>
         </div>
       </QuestionTextInput>
