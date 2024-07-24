@@ -1,0 +1,15 @@
+#!/usr/bin/make -f
+# output every command that modifies files on the build system.
+# export DH_VERBOSE = 1
+
+export PACKAGE_NAME = side-sup-interactive-survey-2024
+
+%:
+	dh $@
+
+override_dh_auto_install:
+	$(MAKE) install DESTDIR=$(CURDIR)/debian/$(PACKAGE_NAME)
+
+override_dh_auto_build:
+
+

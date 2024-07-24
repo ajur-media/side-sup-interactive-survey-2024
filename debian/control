@@ -1,0 +1,12 @@
+Source: side-sup-interactive-survey-2024
+Section: unknown
+Priority: optional
+Maintainer: Karel Wintersky <wombat@fontanka.ru>
+Uploaders: Karel Wintersky <wombat@fontanka.ru>
+Build-Depends: debhelper (>= 9)
+Standards-Version: 3.9.8
+Homepage: -
+
+Package: side-sup-interactive-survey-2024
+Architecture: all
+Description: Survey for Fontanka SUP 2024. Frontend static site

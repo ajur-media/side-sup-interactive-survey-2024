@@ -1,0 +1,12 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: side-sup-interactive-survey-2024
+Source: Survey for Fontanka SUP 2024. Frontend static site
+
+This package was debianized by Karel Wintersky <wombat@fontanka.ru> on
+Thu, 24 Fev 2021 15:06:00 +0300
+
+Upstream Author(s): Karel Wintersky <wombat@fontanka.ru>
+
+Copyright:
+
+Survey for Fontanka SUP 2024. Frontend static site
