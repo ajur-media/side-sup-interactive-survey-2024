@@ -1,3 +1,9 @@
+side-sup-interactive-survey-2024 (1.0.1) stable; urgency=medium
+
+  * [+] счетчик яндекс метрики от супа с ID 92539177, внедряем в index.html без всяких хитростей
+
+ -- Karel Wintersky <wombat@fontanka.ru>  Thu, 25 Jul 2024 13:48:37 +0300
+
 side-sup-interactive-survey-2024 (1.0.0) stable; urgency=medium
 
   * Initial release. (Closes: #XXXXXX)

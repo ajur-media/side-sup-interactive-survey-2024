@@ -20,7 +20,10 @@ remove_public:  ##work Clean local public directory
 build:	##@build Build DEB-package for production
 	@echo Building project
 	@dh_clean ./build/
-	@GENERATE_SOURCEMAP=false ./node_modules/.bin/react-scripts build
+	@GENERATE_SOURCEMAP=false  ./node_modules/.bin/react-scripts build
+# PUBLIC_URL=/ добавить к строке выше, чтобы сделать пути считаемыми от абсолютного корня. Сейчас - от `./`
+	@./node_modules/.bin/rimraf build/**/*.LICENSE*
+#	@npm run build
 	@dpkg-buildpackage -rfakeroot -uc -us --compression-level=9 --diff-ignore=node_modules --tar-ignore=node_modules
 	@dh_clean ./build/
 	@dh_clean
